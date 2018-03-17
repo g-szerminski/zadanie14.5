@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #403829;
+	color: #fff;
+}
+
+button {
+	text-align: center;
+	background-color: #096850;
+	color: #fff;
+}
+
+.contactForm {
+	margin: 1% 0 4% 0;
+	text-align: center;
+}
+
+.contactImage {
+	height: 5%x;
+	width: 5%;
+}
