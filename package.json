@@ -1,0 +1,24 @@
+{
+  "name": "zadanie14.5",
+  "version": "1.0.0",
+  "description": "14 - ReactJS<br>\r 14.5 - Ćwiczenie: Komponenty “kontakt” i “formularz”<br>\r Zadanie: Aplikacja z listą kontaktów",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-szerminski/zadanie14.5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-szerminski/zadanie14.5/issues"
+  },
+  "homepage": "https://github.com/g-szerminski/zadanie14.5#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
