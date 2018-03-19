@@ -19,23 +19,22 @@ button {
 }
 
 .contactForm {
-	display: block;
 	margin: 0 auto;
 	padding: 10px;
 	width: 20vw;
 	text-align: center;
 	background-color: #71823b;
-	box-shadow: 5px 5px 10px 2px #CCC;
+	box-shadow: 5px 5px 10px 2px #0c0c0c;
+	border-radius: 5px;
 
 }
 
 input {
-	margin: 0 auto;
-	display: block;
 	margin-top: 10px;
 	height: 30px;
 	width: 80%;
 	border: 2px solid black;
+	border-radius: 5px;
 }
 
 .contactImage {
@@ -46,27 +45,21 @@ input {
 }
 
 .contactLabel {
-	width: 200px;
-	margin-left: 20px;
-	margin:10px;
+	width: 300px;
+	margin: 10px;
 }
 
 .contactItem {
 	background-color: #992323;
 	display: inline-block;
-	text-align: left;
-	margin-right: 20px;
 	padding: 10px;
+	margin: 10px;
 	box-shadow: 5px 5px 10px 2px #380e0e;
 }
 
-.contactList {
-	margin: 0 auto;	
-}
-
-ul {
-	text-align: center;
+.contactsList {
+	margin: 0 auto;
 	margin-top: 5%;
-	display: block;
-	flex-wrap: wrap;
+	width: auto;
+	text-align: center;
 }
