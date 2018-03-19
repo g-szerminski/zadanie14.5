@@ -63,3 +63,8 @@ input {
 	width: auto;
 	text-align: center;
 }
+
+#app {
+	display: flex;
+	justify-content: center;
+}
