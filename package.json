@@ -5,18 +5,22 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "start index.html"
+    "start": "start index.html",
+    "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files \"styles/*.css\" \"*.html\" \"*.js\""
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/g-szerminski/zadanie14.5.git"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/g-szerminski/zadanie14.5/issues"
   },
+  
   "homepage": "https://github.com/g-szerminski/zadanie14.5#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6"

@@ -7,20 +7,66 @@
 body {
 	background-color: #403829;
 	color: #fff;
+	padding-top: 10px;
 }
 
 button {
 	text-align: center;
-	background-color: #096850;
+	background-color: #1a17c1;
 	color: #fff;
+	margin-top: 10px; 
+	padding: 10px;
 }
 
 .contactForm {
-	margin: 1% 0 4% 0;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	width: 20vw;
 	text-align: center;
+	background-color: #71823b;
+	box-shadow: 5px 5px 10px 2px #CCC;
+
+}
+
+input {
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+	height: 30px;
+	width: 80%;
+	border: 2px solid black;
 }
 
 .contactImage {
-	height: 5%x;
-	width: 5%;
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin: 10px;
+}
+
+.contactLabel {
+	width: 200px;
+	margin-left: 20px;
+	margin:10px;
+}
+
+.contactItem {
+	background-color: #992323;
+	display: inline-block;
+	text-align: left;
+	margin-right: 20px;
+	padding: 10px;
+	box-shadow: 5px 5px 10px 2px #380e0e;
+}
+
+.contactList {
+	margin: 0 auto;	
+}
+
+ul {
+	text-align: center;
+	margin-top: 5%;
+	display: block;
+	flex-wrap: wrap;
 }
